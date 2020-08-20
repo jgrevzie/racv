@@ -6,8 +6,6 @@
 ## Testing
 `npm test`
 
-
-
 I decided to use GraphQL because
  - in a real production project, we'd likely want to get at more data
  - GraphQL handles parameter error checking, defining 'routes' etc
