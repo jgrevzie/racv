@@ -1,11 +1,14 @@
 # RACV coding test
-## Installation
+### Installation
 `npm i`
-## Start
+### Start
 `npm start`
 
-## Testing
+### Testing
 `npm test`
+
+### GUI / Playground
+http://localhost:4000/graphql
 
 ## Commentary
 
