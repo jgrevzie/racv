@@ -1,5 +1,10 @@
 # RACV coding test
+## Installation
+`npm i`
+`npm start`
 
+## Testing
+`npm test`
 
 
 
