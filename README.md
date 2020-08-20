@@ -11,6 +11,33 @@
 ##### GUI / Playground
 http://localhost:4000/graphql
 
+**Note** Database initially contains a few example properties
+
+**Sample query**
+`{
+  properties {
+    streetAddress
+    suburb
+    price
+    relativeToAverage
+  }
+}`
+
+**Add property**
+`mutation {
+   addProperty(
+     property: {
+       streetAddress: "Pleasant Street South"
+       suburb: "Ballarat Central"
+       price: 700000
+       description: "rustic, magnificent"
+     }
+   ) {
+     price
+   }
+ }
+`
+
 ## Commentary
 
 I decided to use GraphQL because
