@@ -1,6 +1,7 @@
 # RACV coding test
 ## Installation
 `npm i`
+## Start
 `npm start`
 
 ## Testing
