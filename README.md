@@ -38,6 +38,9 @@ http://localhost:4000/graphql
  }
 `
 
+These examples can be entered into the playground, or (of course) sent thru to `http://localhost:4000/graphql`
+as a `POST` with JSON data in the req with the property `query` set to the example.
+
 ## Commentary
 
 I decided to use GraphQL because
@@ -46,7 +49,7 @@ I decided to use GraphQL because
  - it's simple
 
 Therefore, there's no code to check the parameter types, format etc. of searches and mutations.
-This is all handles by GraphQL.
+This is all handled by GraphQL.
 
 
 Technically, the decision to use GraphQL means that there is no single endpoint that includes
